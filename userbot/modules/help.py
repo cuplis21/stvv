@@ -27,7 +27,7 @@ async def help(event):
         separator = "=============================================="
         for i in CMD_HELP:
             string += "`" + str(i)
-            string += "` | "
+            string += "` || "
         await event.edit(f"{head}\
               \n{head2}\
               \n{head3}\
